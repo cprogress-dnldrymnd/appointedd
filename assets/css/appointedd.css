@@ -590,7 +590,7 @@ source: https://codepen.io/yy/pen/vOYqYV
 
 @media(max-width: 991px) {
     .profiles>.profile {
-        width: 50%;
+        width: 33.333333%;
     }
 
 }
@@ -605,6 +605,9 @@ source: https://codepen.io/yy/pen/vOYqYV
 		padding: 0;
 		margin-bottom: 15px;
 	}
+  .profiles>.profile {
+    width: 50%;
+}
 	
 }
 
