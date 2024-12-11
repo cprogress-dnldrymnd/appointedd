@@ -499,13 +499,12 @@ jQuery(document).ready(function () {
                 console.log($service);
             }
 
-            if($date) {
+            if ($date) {
                 jQuery('.app-date').val($date);
                 jQuery('input[name="display-date"]').val($date);
             }
+            jQuery('#appointedd-submit-button').click();
         }
-
-        jQuery('#appointedd-submit-button').click();
     }
 });
 
