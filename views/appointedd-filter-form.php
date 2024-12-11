@@ -2,7 +2,7 @@
     <div class="appointedd-filter-holder">
     <h3 class="appointedd-header atorge" >live celebrant availability checker</h3>
     <form class="appointedd-filter" name="appointed-filter-form" method="get" action="/meet-humanist-celebrant-scotland">
-        <input type="hidden" value="10" name="limit" />
+        <input type="hidden" value="100" name="limit" />
         <div class="form-group fusion-layout-column fusion-one-third">
             <label for="service">Service</label>
             <select name="service" class="custom-select sources" placeholder="Select Ceremony Type" <?php echo !empty($ceremony) && $ceremony != "all" ? "disabled-dropdown='true'" : ""; ?>>

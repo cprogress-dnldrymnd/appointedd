@@ -217,7 +217,7 @@ class Appointedd{
     
     public static function GetAllResources(){
         $API_KEY = get_option("appointed_apikey");
-        $url = Appointedd::API_HOST . "resources?limit=50";
+        $url = Appointedd::API_HOST . "resources?limit=100";
         $curl = curl_init($url);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($curl, CURLOPT_HTTPHEADER, [
@@ -234,7 +234,7 @@ class Appointedd{
     
     public static function GetAllResourceGroups(){
         $API_KEY = get_option("appointed_apikey");
-        $url = Appointedd::API_HOST . "resources/groups?limit=50&sort_by=natural&order_by=ascending";
+        $url = Appointedd::API_HOST . "resources/groups?limit=100&sort_by=natural&order_by=ascending";
         $curl = curl_init($url);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($curl, CURLOPT_HTTPHEADER, [
@@ -365,7 +365,7 @@ class Appointedd{
     public static function get_services( bool $values_only = false ){
         $API_KEY = get_option("appointed_apikey");
 
-        $url = Appointedd::API_HOST . "services?limit=30";
+        $url = Appointedd::API_HOST . "services?limit=100";
         $curl = curl_init($url);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($curl, CURLOPT_HTTPHEADER, [
