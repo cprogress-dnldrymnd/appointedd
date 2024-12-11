@@ -157,6 +157,8 @@ var getUrlParameter = function getUrlParameter(sParam) {
         var $enquire = $('#appointedd-enquire-button');
 
         $submit.on('click', function (event) {
+            jQuery('.similar_Celebrants.is-grid').remove();
+
             if (jQuery('.activate-celebrants-ajax-on-load').length != 0 || jQuery('.activate-celebrants-search').length != 0) {
                 event.preventDefault();
                 console.log("Submit button clicked");
