@@ -605,6 +605,9 @@ source: https://codepen.io/yy/pen/vOYqYV
     margin-left: -5px;
     margin-right: -5px;
   }
+  .profiles .profile .profile-info-wrapper {
+    padding: 15px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -621,7 +624,6 @@ source: https://codepen.io/yy/pen/vOYqYV
     margin-top: 0;
     width: 100%;
     border-radius: 0 0 5px 5px;
-    padding: 20px 10px;
   }
   .profiles .profile .profile-img {
     border-radius: 5px 5px 0 0;
@@ -637,5 +639,11 @@ source: https://codepen.io/yy/pen/vOYqYV
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+}
+@media(max-width: 460px) {
+  .profile-actions.profile-actions.profile-actions a {
+    font-size: 12px;
+    padding: 10px 7px;
   }
 }
