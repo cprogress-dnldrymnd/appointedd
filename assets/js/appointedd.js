@@ -196,7 +196,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
 
     var GetServices = function (data) {
         var data = {
-            limit: 10,
+            limit: 100,
             action: "get_ui_services",
         }
         //url = url + "availability/slots";
@@ -299,7 +299,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
 
     var GetResources = function (data) {
         var data = {
-            limit: 10,
+            limit: 100,
             action: "get_available_slots",
         }
         //url = url + "availability/slots";
@@ -465,7 +465,7 @@ var getUrlParameter = function getUrlParameter(sParam) {
 
     var sync_ids = function (data) {
         var data = {
-            limit: 10,
+            limit: 100,
             action: "sync_ids",
         }
         //url = url + "availability/slots";
