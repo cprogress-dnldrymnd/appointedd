@@ -1,8 +1,9 @@
-.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
-    width: 45%;
-    padding: 0;
-    height: auto;
-    line-height: 1.2;
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+  width: 45%;
+  padding: 0;
+  height: auto;
+  line-height: 1.2;
 }
 
 .appointedd-filter {
@@ -11,76 +12,76 @@
   align-items: center;
 }
 .appointedd-filter > div {
-    flex: 0 0 auto;
-    width: 25%;
+  flex: 0 0 auto;
+  width: 25%;
 }
 
 .appointedd-filter label {
-    display: none;
+  display: none;
 }
-.appointedd-filter.appointedd-filter input:not([type="submit"]), .appointedd-filter .custom-select-trigger {
-    background-color: #fff;
-    font-family: 'Atorge';
-    text-transform: lowercase;
-    letter-spacing: 1.6px;
-    font-size: 13px;
-    padding: 12px 10px;
-    height: auto !important;
-    line-height: 1.4;
-    border: none !important;
-    border-radius:4px !important;
+.appointedd-filter.appointedd-filter input:not([type="submit"]),
+.appointedd-filter .custom-select-trigger {
+  background-color: #fff;
+  font-family: "Atorge";
+  text-transform: lowercase;
+  letter-spacing: 1.6px;
+  font-size: 13px;
+  padding: 12px 10px;
+  height: auto !important;
+  line-height: 1.4;
+  border: none !important;
+  border-radius: 4px !important;
 }
 .appointedd-filter.appointedd-filter.appointedd-filter.appointedd-filter input::placeholder {
-    font-family: 'Atorge' !important;
-    text-transform: lowercase !important;
-    letter-spacing: 1.6px !important;
-    font-size: 13px !important;
+  font-family: "Atorge" !important;
+  text-transform: lowercase !important;
+  letter-spacing: 1.6px !important;
+  font-size: 13px !important;
 }
-select[name="service"] + .custom-select .custom-select-trigger{
-  
-    background-image: url('data:image/svg+xml,<svg id="ceremony" xmlns="http://www.w3.org/2000/svg" width="23.671" height="18" viewBox="0 0 23.671 18"><g id="Group_57" data-name="Group 57"><path id="Path_11" data-name="Path 11" d="M23.562,66.807A7.434,7.434,0,0,0,22.1,63.495l.207-.076a1.725,1.725,0,0,0,1.026-2.205l-.519-1.433a3.45,3.45,0,0,0-4.427-2.069l-1.422.52a1.725,1.725,0,0,0-1.026,2.205l.076.21a7.418,7.418,0,0,0-4.18,1.48,7.419,7.419,0,0,0-4.18-1.481l.076-.21A1.725,1.725,0,0,0,6.7,58.231l-1.422-.52A3.45,3.45,0,0,0,.856,59.781L.336,61.214a1.725,1.725,0,0,0,1.026,2.205l.207.076a7.453,7.453,0,0,0-.876,7.713,7.383,7.383,0,0,0,11.141,2.8,7.407,7.407,0,0,0,11.726-7.205ZM22.407,61.55a.738.738,0,0,1-.438.943l-3.052,1.116-.034.012,1.006-2.166a3.9,3.9,0,0,0,2.476-.021Zm-3.681-2.912a2.463,2.463,0,0,1,3.161,1.479l.141.389a2.927,2.927,0,0,1-2.178-.125l0,0h0a2.949,2.949,0,0,1-1.5-1.6Zm-1.422.52.113-.041A3.926,3.926,0,0,0,19,61.036l-1,2.164-.012-.031L16.867,60.1A.738.738,0,0,1,17.3,59.157ZM6.253,59.116l.113.041A.738.738,0,0,1,6.8,60.1L5.692,63.169,5.68,63.2l-1-2.164A3.924,3.924,0,0,0,6.253,59.116Zm-4.47,1a2.463,2.463,0,0,1,3.161-1.479l.383.14a2.957,2.957,0,0,1-3.685,1.728ZM1.264,61.55l.042-.116a3.9,3.9,0,0,0,2.476.021L4.788,63.62l-.034-.012L1.7,62.493A.738.738,0,0,1,1.264,61.55Zm8.842,12.358a6.4,6.4,0,0,1-8.517-3.114,6.441,6.441,0,0,1,.962-6.939l1.864.681a1.718,1.718,0,0,0,2.2-1.03l.68-1.876a6.355,6.355,0,0,1,3.775,1.155,7.453,7.453,0,0,0,0,10.564A6.419,6.419,0,0,1,10.106,73.907Zm.358-8.559a6.475,6.475,0,0,1,1.372-1.933,6.48,6.48,0,0,1,0,9.3A6.473,6.473,0,0,1,10.464,65.348Zm11.618,5.445A6.4,6.4,0,0,1,12.6,73.349a7.454,7.454,0,0,0,0-10.563,6.361,6.361,0,0,1,3.774-1.156l.68,1.875a1.718,1.718,0,0,0,2.2,1.03l1.864-.681A6.423,6.423,0,0,1,22.082,70.793Z" transform="translate(0 -57.5)" fill="%23707070"/></g></svg>')
+select[name="service"] + .custom-select .custom-select-trigger {
+  background-image: url('data:image/svg+xml,<svg id="ceremony" xmlns="http://www.w3.org/2000/svg" width="23.671" height="18" viewBox="0 0 23.671 18"><g id="Group_57" data-name="Group 57"><path id="Path_11" data-name="Path 11" d="M23.562,66.807A7.434,7.434,0,0,0,22.1,63.495l.207-.076a1.725,1.725,0,0,0,1.026-2.205l-.519-1.433a3.45,3.45,0,0,0-4.427-2.069l-1.422.52a1.725,1.725,0,0,0-1.026,2.205l.076.21a7.418,7.418,0,0,0-4.18,1.48,7.419,7.419,0,0,0-4.18-1.481l.076-.21A1.725,1.725,0,0,0,6.7,58.231l-1.422-.52A3.45,3.45,0,0,0,.856,59.781L.336,61.214a1.725,1.725,0,0,0,1.026,2.205l.207.076a7.453,7.453,0,0,0-.876,7.713,7.383,7.383,0,0,0,11.141,2.8,7.407,7.407,0,0,0,11.726-7.205ZM22.407,61.55a.738.738,0,0,1-.438.943l-3.052,1.116-.034.012,1.006-2.166a3.9,3.9,0,0,0,2.476-.021Zm-3.681-2.912a2.463,2.463,0,0,1,3.161,1.479l.141.389a2.927,2.927,0,0,1-2.178-.125l0,0h0a2.949,2.949,0,0,1-1.5-1.6Zm-1.422.52.113-.041A3.926,3.926,0,0,0,19,61.036l-1,2.164-.012-.031L16.867,60.1A.738.738,0,0,1,17.3,59.157ZM6.253,59.116l.113.041A.738.738,0,0,1,6.8,60.1L5.692,63.169,5.68,63.2l-1-2.164A3.924,3.924,0,0,0,6.253,59.116Zm-4.47,1a2.463,2.463,0,0,1,3.161-1.479l.383.14a2.957,2.957,0,0,1-3.685,1.728ZM1.264,61.55l.042-.116a3.9,3.9,0,0,0,2.476.021L4.788,63.62l-.034-.012L1.7,62.493A.738.738,0,0,1,1.264,61.55Zm8.842,12.358a6.4,6.4,0,0,1-8.517-3.114,6.441,6.441,0,0,1,.962-6.939l1.864.681a1.718,1.718,0,0,0,2.2-1.03l.68-1.876a6.355,6.355,0,0,1,3.775,1.155,7.453,7.453,0,0,0,0,10.564A6.419,6.419,0,0,1,10.106,73.907Zm.358-8.559a6.475,6.475,0,0,1,1.372-1.933,6.48,6.48,0,0,1,0,9.3A6.473,6.473,0,0,1,10.464,65.348Zm11.618,5.445A6.4,6.4,0,0,1,12.6,73.349a7.454,7.454,0,0,0,0-10.563,6.361,6.361,0,0,1,3.774-1.156l.68,1.875a1.718,1.718,0,0,0,2.2,1.03l1.864-.681A6.423,6.423,0,0,1,22.082,70.793Z" transform="translate(0 -57.5)" fill="%23707070"/></g></svg>');
 }
-select[name="location"] + .custom-select .custom-select-trigger{
-    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="18.987" height="18.987" viewBox="0 0 18.987 18.987"><path id="location" d="M5.361,12.045c-1.351-.481-2.027-.721-2.228-1.086a1.1,1.1,0,0,1-.022-1.021c.186-.373.85-.642,2.18-1.18L17.824,3.685c1.309-.53,1.964-.8,2.378-.659a1.189,1.189,0,0,1,.759.759c.136.414-.129,1.068-.659,2.378L15.229,18.7c-.538,1.33-.807,1.995-1.18,2.18a1.1,1.1,0,0,1-1.021-.022c-.365-.2-.605-.877-1.086-2.228l-1.472-4.138a2.158,2.158,0,0,0-.217-.5A1,1,0,0,0,10,13.734a2.159,2.159,0,0,0-.5-.217Z" transform="translate(-2.484 -2.516)" fill="none" stroke="%23707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/></svg>')
+select[name="location"] + .custom-select .custom-select-trigger {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="18.987" height="18.987" viewBox="0 0 18.987 18.987"><path id="location" d="M5.361,12.045c-1.351-.481-2.027-.721-2.228-1.086a1.1,1.1,0,0,1-.022-1.021c.186-.373.85-.642,2.18-1.18L17.824,3.685c1.309-.53,1.964-.8,2.378-.659a1.189,1.189,0,0,1,.759.759c.136.414-.129,1.068-.659,2.378L15.229,18.7c-.538,1.33-.807,1.995-1.18,2.18a1.1,1.1,0,0,1-1.021-.022c-.365-.2-.605-.877-1.086-2.228l-1.472-4.138a2.158,2.158,0,0,0-.217-.5A1,1,0,0,0,10,13.734a2.159,2.159,0,0,0-.5-.217Z" transform="translate(-2.484 -2.516)" fill="none" stroke="%23707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/></svg>');
 }
 
- .custom-select .custom-select-trigger, .appointedd-filter.appointedd-filter.appointedd-filter input:not([type="submit"]){ 
-    background-size: 20px;
-    background-position: 10px;
-    padding-left: 44px;
-    text-align: left;
-    background-repeat: no-repeat;
- }
+.custom-select .custom-select-trigger,
+.appointedd-filter.appointedd-filter.appointedd-filter input:not([type="submit"]) {
+  background-size: 20px;
+  background-position: 10px;
+  padding-left: 44px;
+  text-align: left;
+  background-repeat: no-repeat;
+}
 .appointedd-filter.appointedd-filter input[name="display-date"] {
-    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19"><path id="date" d="M3,9H21M7,3V5M17,3V5M6,13H8M6,17H8m3-4h2m-2,4h2m3-4h2m-2,4h2M6.2,21H17.8a4.968,4.968,0,0,0,2.108-.218,2,2,0,0,0,.874-.874A4.968,4.968,0,0,0,21,17.8V8.2a4.968,4.968,0,0,0-.218-2.108,2,2,0,0,0-.874-.874A4.969,4.969,0,0,0,17.8,5H6.2a4.969,4.969,0,0,0-2.108.218,2,2,0,0,0-.874.874A4.969,4.969,0,0,0,3,8.2v9.6a4.969,4.969,0,0,0,.218,2.108,2,2,0,0,0,.874.874A4.968,4.968,0,0,0,6.2,21Z" transform="translate(-2.5 -2.5)" fill="none" stroke="%23707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/></svg>');
- 
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19"><path id="date" d="M3,9H21M7,3V5M17,3V5M6,13H8M6,17H8m3-4h2m-2,4h2m3-4h2m-2,4h2M6.2,21H17.8a4.968,4.968,0,0,0,2.108-.218,2,2,0,0,0,.874-.874A4.968,4.968,0,0,0,21,17.8V8.2a4.968,4.968,0,0,0-.218-2.108,2,2,0,0,0-.874-.874A4.969,4.969,0,0,0,17.8,5H6.2a4.969,4.969,0,0,0-2.108.218,2,2,0,0,0-.874.874A4.969,4.969,0,0,0,3,8.2v9.6a4.969,4.969,0,0,0,.218,2.108,2,2,0,0,0,.874.874A4.968,4.968,0,0,0,6.2,21Z" transform="translate(-2.5 -2.5)" fill="none" stroke="%23707070" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/></svg>');
 }
 #appointedd-submit-button {
   background-color: #f0a786;
   border-radius: 0px !important;
   font-size: 16px;
-    font-family: 'Atorge' !important;
-    text-transform: lowercase !important;
-    color: #fff;
-    letter-spacing: 1.6px;
-    cursor: pointer;
-    border-radius: 4px !important;
+  font-family: "Atorge" !important;
+  text-transform: lowercase !important;
+  color: #fff;
+  letter-spacing: 1.6px;
+  cursor: pointer;
+  border-radius: 4px !important;
 }
 
 #appointedd-enquire-button {
   display: none;
 }
 
-.home-filter input[type='text'],
-.home-filter input[type='date'],
+.home-filter input[type="text"],
+.home-filter input[type="date"],
 .home-filter select,
 .home-filter label,
 .app-display-date {
   width: 100% !important;
 }
 
-.home-filter input[type='date'],
-.home-filter input[type='text'],
+.home-filter input[type="date"],
+.home-filter input[type="text"],
 .app-display-date {
   border: none !important;
   font-weight: 600;
@@ -96,9 +97,9 @@ select[name="location"] + .custom-select .custom-select-trigger{
 }
 
 .form-control.app-display-date.hasDatepicker::placeholder {
-	font-family: Raleway !important;
-	font-size: 16px !important;
-	color: #7a7a7a !important;
+  font-family: Raleway !important;
+  font-size: 16px !important;
+  color: #7a7a7a !important;
 }
 
 .app-display-date {
@@ -134,15 +135,15 @@ select[name="location"] + .custom-select .custom-select-trigger{
   background-color: #c59147 !important;
 }
 
-.home-filter>.fusion-row {
+.home-filter > .fusion-row {
   z-index: 11 !important;
 }
 
 .filter-results {
   margin-top: 25px;
   padding-top: 25px;
-	padding-left: 20px;
-	padding-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-weight: normal;
 }
 
@@ -156,7 +157,7 @@ select[name="location"] + .custom-select .custom-select-trigger{
   padding: 10px;
 }
 .profiles-holder {
-      max-width: 1200px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -166,13 +167,12 @@ select[name="location"] + .custom-select .custom-select-trigger{
   justify-content: center;
   margin-left: -10px;
   margin-right: -10px;
-  
 }
 
-.profiles>.profile {
-	width: 25%;
-    margin: 0;
-    flex: 0 0 auto;
+.profiles > .profile {
+  width: 25%;
+  margin: 0;
+  flex: 0 0 auto;
   text-align: center;
   line-height: 1em;
   font-size: 1.5em;
@@ -181,46 +181,46 @@ select[name="location"] + .custom-select .custom-select-trigger{
   padding-bottom: 50px;
 }
 .profiles .profile .profile-inner {
-    position: relative;
+  position: relative;
 }
 .profiles .profile .profile-info-wrapper {
-    background: #F5F0EB;
-    padding: 20px 1vw;
-    position: relative;
-    right: 0;
-    left: 0;
-    width: 92%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -30px;
-    z-index: 1;
-    border-radius: 10px;
+  background: #f5f0eb;
+  padding: 20px 1vw;
+  position: relative;
+  right: 0;
+  left: 0;
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -30px;
+  z-index: 1;
+  border-radius: 10px;
 }
 .profiles .profile .profile-img {
-    position: relative;
-    padding: 75% 0;
-    overflow: hidden;
+  position: relative;
+  padding: 75% 0;
+  overflow: hidden;
 }
 .profiles .profile .profile-img img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: 400ms;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 400ms;
 }
 .profiles .profile .profile-img:hover img {
-        transform: scale(1.1);
+  transform: scale(1.1);
 }
 .profiles .profile .profile-info-wrapper .profile-name {
-    font-family: 'Atorge' !important;
-    font-size: 20px !important;
-    text-transform: lowercase !important;
-    margin-bottom: 10px;
-	letter-spacing: 2px;
+  font-family: "Atorge" !important;
+  font-size: 20px !important;
+  text-transform: lowercase !important;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
 }
-.profiles>.profile>.profile-info {
+.profiles > .profile > .profile-info {
   padding: 15px 5px;
   font-size: 0.9rem;
   /* font-weight: bolder; */
@@ -228,16 +228,15 @@ select[name="location"] + .custom-select .custom-select-trigger{
 
 .profile-actions {
   display: flex;
-margin-left: -10px;
+  margin-left: -10px;
   margin-right: -10px;
 }
 .profile-actions > div {
-    flex: 0 0 50%;
-    width: 50%;
-    padding-left: 10px;
-    padding-right: 10px;
+  flex: 0 0 50%;
+  width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-
 
 .pagination {
   display: block;
@@ -253,27 +252,22 @@ margin-left: -10px;
   display: flex;
 }
 
-.pagination>li {
+.pagination > li {
   padding: 10px 10px;
-
 }
 
-
-
-.pagination.pagination.pagination>li.page-item:hover a{
-  color: #F0A687 !important;
+.pagination.pagination.pagination > li.page-item:hover a {
+  color: #f0a687 !important;
 }
 
-.pagination>li.page-item.active a {
-  color: #F0A687;
+.pagination > li.page-item.active a {
+  color: #f0a687;
   border: none !important;
 }
 
 .hidden {
   display: none;
-  ;
 }
-
 
 /* Loading Spinner */
 
@@ -312,37 +306,36 @@ margin-left: -10px;
 
 @keyframes lds-ring {
   0% {
-      transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
-
 
 /*Datepicker UI Widget*/
 
 #ui-datepicker-div {
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }
 
-.ui-datepicker>.ui-datepicker-header {
+.ui-datepicker > .ui-datepicker-header {
   background: var(--accent-color);
   color: #fff;
 }
 .ui-datepicker * {
-	font-family: 'Atorge', sans-serif !important;
-	text-transform: lowercase !important;
+  font-family: "Atorge", sans-serif !important;
+  text-transform: lowercase !important;
 }
 .ui-datepicker .ui-datepicker-title {
-	display: flex;
-	flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 .ui-datepicker select {
-	text-align: center
+  text-align: center;
 }
 .ui-datepicker select option {
-	color: #000;
+  color: #000;
 }
 
 .ui-datepicker-calendar th {
@@ -403,8 +396,6 @@ html .ui-datepicker .ui-button.ui-state-disabled:active {
   color: #fff !important;
 }
 
-
-
 /** Custom Select 
 source: https://codepen.io/yy/pen/vOYqYV
 **/
@@ -443,7 +434,7 @@ source: https://codepen.io/yy/pen/vOYqYV
 .custom-select-trigger:after {
   position: absolute;
   display: block;
-  content: '';
+  content: "";
   width: 10px;
   height: 10px;
   top: 50%;
@@ -452,7 +443,7 @@ source: https://codepen.io/yy/pen/vOYqYV
   border-bottom: 1px solid #f0a787;
   border-right: 1px solid #f0a787;
   transform: rotate(45deg) translateY(-50%);
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   transform-origin: 50% 0;
 }
 
@@ -472,9 +463,9 @@ source: https://codepen.io/yy/pen/vOYqYV
   border: 1px solid #b5b5b5;
   border-radius: 4px;
   box-sizing: border-box;
-  box-shadow: 0 2px 1px rgba(0, 0, 0, .07);
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.07);
   background: #fff;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   z-index: 20;
   opacity: 0;
   visibility: hidden;
@@ -482,10 +473,10 @@ source: https://codepen.io/yy/pen/vOYqYV
   transform: translateY(-15px);
 }
 .custom-options * {
-     font-family: 'Source Sans Pro' !important;
-    font-weight: 400 !important;
-    font-size: 15px;
-    line-height: 30px !important;
+  font-family: "Source Sans Pro" !important;
+  font-weight: 400 !important;
+  font-size: 15px;
+  line-height: 30px !important;
 }
 
 .custom-select.opened .custom-options {
@@ -498,7 +489,7 @@ source: https://codepen.io/yy/pen/vOYqYV
 .custom-options:before {
   position: absolute;
   display: block;
-  content: '';
+  content: "";
   bottom: 100%;
   right: 25px;
   width: 7px;
@@ -508,7 +499,7 @@ source: https://codepen.io/yy/pen/vOYqYV
   border-left: 1px solid #b5b5b5;
   background: #fff;
   transform: rotate(45deg);
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .option-hover:before {
@@ -520,12 +511,12 @@ source: https://codepen.io/yy/pen/vOYqYV
   display: block;
   padding: 0 22px;
   border-bottom: 1px solid #b5b5b5;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-weight: 600;
   color: #565656;
   line-height: 47px;
   cursor: pointer;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .custom-option:first-of-type {
@@ -543,103 +534,108 @@ source: https://codepen.io/yy/pen/vOYqYV
 }
 
 .appointedd-header {
-	color: #C59148 !important;
-    text-align: center;
-    font-family: 'Atorge', sans-serif;
-    font-size: 30px;
-	letter-spacing: 2px;
+  color: #c59148 !important;
+  text-align: center;
+  font-family: "Atorge", sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
 }
 .home .appointedd-header {
-	color: #fff !important;
-	
+  color: #fff !important;
 }
 
 .profile-actions.profile-actions.profile-actions a {
-	padding-left: 10px;
-	padding-right: 10px;
-	height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 15px;
-    letter-spacing: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  letter-spacing: 1px;
 }
 
 .appointedd-search-form {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .appointedd-search-form > p {
-    text-align: center;
-    font-weight: bold;
-    font-size: 16px !important;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px !important;
 }
 .appointedd-search-form.appointedd-search-form select {
-    line-height: 1;
-    height: auto;
-        -webkit-appearance: auto;
+  line-height: 1;
+  height: auto;
+  -webkit-appearance: auto;
 }
 @media only screen and (max-device-width: 640px) {
-  
-  .profiles>.profile>.profile-info {
-      font-size: 0.75rem;
+  .profiles > .profile > .profile-info {
+    font-size: 0.75rem;
   }
 }
 
-
-@media(max-width: 991px) {
-    .profiles>.profile {
-        width: 33.333333%;
-    }
-
+@media (max-width: 991px) {
+  .profiles > .profile {
+    width: 33.333333%;
+  }
 }
 
-
-@media(max-width: 767px) {
-	.appointedd-filter {
-		flex-direction: column;
-	}
-	.appointedd-filter > div {
-		width: 100%;
-		padding: 0;
-		margin-bottom: 15px;
-	}
-  .profiles>.profile {
+@media (max-width: 767px) {
+  .appointedd-filter {
+    flex-direction: column;
+  }
+  .appointedd-filter > div {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 15px;
+  }
+  .profiles > .profile {
     width: 50%;
-}
-	
+  }
+  .profile-actions > div {
+    flex: 0 0 auto;
+    width: auto;
+    flex-grow: 1;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .profile-actions {
+    margin-left: -5px;
+    margin-right: -5px;
+  }
 }
 
-@media(max-width: 575px) {
-    .profiles>.profile {
-		padding-bottom: 30px;
-		padding-left:5px;
-		padding-right: 5px;
-	}
-	.profiles {
-		margin-left: -5px;
-		margin-right: -5px;
-	}
-	.profiles .profile .profile-info-wrapper {
-		margin-top: 0;
-		width: 100%;
-		border-radius: 0 0 5px 5px;
-		padding: 20px 10px;
-	}
-	.profiles .profile .profile-img {
-		border-radius: 5px 5px 0 0;
-	}
-	.profile-actions.profile-actions.profile-actions a {
-		letter-spacing: 1px;
-    	font-size: 14px;
-	}
-	.profiles .profile .profile-inner {
-	    height: 100%;
-		background: #F5F0EB;
-		border-radius: 5px;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-	}
+@media (max-width: 575px) {
+  .profiles > .profile {
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .profiles {
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+  .profiles .profile .profile-info-wrapper {
+    margin-top: 0;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+    padding: 20px 10px;
+  }
+  .profiles .profile .profile-img {
+    border-radius: 5px 5px 0 0;
+  }
+  .profile-actions.profile-actions.profile-actions a {
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+  .profiles .profile .profile-inner {
+    height: 100%;
+    background: #f5f0eb;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
