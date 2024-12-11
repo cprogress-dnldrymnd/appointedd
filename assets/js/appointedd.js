@@ -486,7 +486,6 @@ var getUrlParameter = function getUrlParameter(sParam) {
 
 jQuery(document).ready(function () {
     if (jQuery('.activate-celebrants-ajax-on-load').length != 0) {
-   
         if (getUrlParameter('limit')) {
             $service = getUrlParameter('service');
             $date = getUrlParameter('date');
